@@ -21,7 +21,7 @@ class MyFirstApp extends StatelessWidget {
         fontFamily: 'Poppins',
         useMaterial3: true,
       ),
-      // splash shows first
+      // splash screen shows first
       home: const SplashScreen(),
     );
   }
