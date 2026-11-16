@@ -24,7 +24,7 @@ flutter doctor
 
 ### Steps
 
-1. **Clone the repository** (replace the URL with your own):
+1. **Clone the repository**:
 
 ```bash
 git clone https://github.com/your-username/my_first_app.git
