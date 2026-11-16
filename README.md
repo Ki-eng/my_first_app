@@ -7,11 +7,11 @@ A beginner-friendly Flutter portfolio app built as a learning project. It demons
 
 ## Features
 
-- \u{1F3A8} Custom theme (teal color scheme) and custom typography (Poppins font)
-- \u{1F680} Splash screen with automatic transition to the home screen
-- \u{1F464} "About Me" second screen with button navigation
-- \u{1F37F} Snackbar message button in the floating action button position
-- \u{1F4F1} Responsive layout that adapts between phone and tablet/large screens (600dp breakpoint)
+- Custom theme (teal color scheme) and custom typography (Poppins font)
+- Splash screen with automatic transition to the home screen
+- "About Me" second screen with button navigation
+- Snackbar message button in the floating action button position
+- Responsive layout that adapts between phone and tablet/large screens (600dp breakpoint)
 
 ## Installation
 
@@ -57,13 +57,6 @@ Tip: run on Chrome to test the responsive layout by resizing the browser window 
 
 ```bash
 flutter run -d chrome
-```
-
-5. **Build for release** (optional):
-
-```bash
-flutter build apk --release   # Android
-flutter build ios --release   # iOS (macOS only)
 ```
 
 ## Project Structure
