@@ -25,7 +25,7 @@ class AboutScreen extends StatelessWidget {
               leading: Icon(Icons.email),
               title: Text('kiransaleem@gmail.com'),
             ),
-            SizedBox(height: 20),
+            SizedBox(height: 10),
             ListTile(
               leading: Icon(Icons.link),
               title: Text('github.com/kiransaleem'),
