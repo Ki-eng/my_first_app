@@ -1,4 +1,4 @@
-# My First App — Portfolio App
+# My First App
 
 A beginner-friendly Flutter portfolio app built as a learning project. It demonstrates app customization, navigation between screens, a splash screen, custom fonts, and a basic responsive layout.
 
