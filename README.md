@@ -37,11 +37,11 @@ cd my_first_app
 flutter pub get
 ```
 
-3. **Add the font files** (one-time setup): download [Poppins](https://fonts.google.com/specimen/Poppins) and place the TTFs in `assets/fonts/`:
+3. **Add the font files** (one-time setup): download [Poppins](https://fonts.google.com/specimen/Poppins) and place the TTFs in `assets/fonts/poppins`:
 
 ```
-assets/fonts/Poppins-Regular.ttf
-assets/fonts/Poppins-Bold.ttf
+assets/fonts/poppins/Poppins-Regular.ttf
+assets/fonts/poppins/Poppins-Bold.ttf
 ```
 
 4. **Run the app:**
@@ -50,7 +50,7 @@ assets/fonts/Poppins-Bold.ttf
 flutter run
 ```
 
-Tip: run on Chrome to test the responsive layout by resizing the browser window past 600px:
+Tip: run on Chrome/edge to test the responsive layout by resizing the browser window past 600px:
 
 ```bash
 flutter run -d chrome
