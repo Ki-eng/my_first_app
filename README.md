@@ -50,7 +50,7 @@ assets/fonts/poppins/Poppins-Bold.ttf
 flutter run
 ```
 
-Tip: run on Chrome/edge to test the responsive layout by resizing the browser window past 600px:
+Tip: run on Chrome/Edge to test the responsive layout by resizing the browser window past 600px:
 
 ```bash
 flutter run -d chrome
@@ -70,7 +70,7 @@ lib/
 
 1. Created the app with `flutter create my_first_app` and navigated into the folder.
 2. Changed the app name to **My First App** and the theme color to **teal** via `ColorScheme.fromSeed`.
-3. Updated the AppBar title from "Flutter Demo Home Page" to **"Alex's Portfolio"**.
+3. Updated the AppBar title from "Flutter Demo Home Page" to **"Kiran's Portfolio"**.
 4. Removed the default counter and FloatingActionButton, replacing them with two `ElevatedButton`s:
    - **About Me** — navigates to the new screen with `Navigator.push` + `MaterialPageRoute`.
    - **Show Message** — shows a `SnackBar` when tapped.
@@ -80,7 +80,7 @@ lib/
 ### Splash screen, custom fonts, responsiveness
 
 1. **Splash screen** (`lib/splash_screen.dart`):
-   - Shows a logo, app name, and loading indicator for 2 seconds.
+   - Shows a logo, app name, and loading indicator for 5 seconds.
    - Uses `Navigator.pushReplacement` so the back button can't return to the splash.
    - Includes a `mounted` check before navigating (safe async navigation).
 2. **Custom fonts**:
