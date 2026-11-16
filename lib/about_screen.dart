@@ -14,11 +14,13 @@ class AboutScreen extends StatelessWidget {
           children: [
             CircleAvatar(radius: 40, child: Icon(Icons.person, size: 40)),
             SizedBox(height: 16),
+            // title
             Text(
               "Hi, I'm Kiran!",
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 8),
+            // sub-title
             Text('I build cross-platform apps with Flutter.'),
             SizedBox(height: 16),
             ListTile(
