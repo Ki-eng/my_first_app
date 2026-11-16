@@ -15,7 +15,7 @@ class AboutScreen extends StatelessWidget {
             CircleAvatar(radius: 40, child: Icon(Icons.person, size: 40)),
             SizedBox(height: 16),
             Text(
-              "Hi, I'm Kiran!", // ← your name
+              "Hi, I'm Kiran!",
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 8),
